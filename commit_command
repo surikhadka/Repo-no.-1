@@ -1,0 +1,6 @@
+git init
+git add .
+git commmit -m "commnit message"
+git branch - M main | git branch new-patch1 | git checkout new-patch1
+git remote add origin "link to the github repo site"
+git push -u origin main | new-patch1
