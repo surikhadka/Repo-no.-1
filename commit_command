@@ -43,7 +43,7 @@ Purpose: Pushes your local branch (new-patch1) to the remote repository.
 -u sets the upstream branch, so future git push commands will automatically push to origin new-patch1.
 Your changes in new-patch1 are now available in the linked remote repository.
 
-<b>Summary of Workflow:</b>
+Summary of Workflow:
 Initialize a Git repository.
 Stage and commit changes.
 Create and switch to a new branch.
