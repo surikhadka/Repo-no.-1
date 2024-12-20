@@ -10,19 +10,19 @@ Here’s a step-by-step explanation of the given Git commands:
 
 1. git init
 Purpose: Initializes a new Git repository in your current directory.
-
 Creates a hidden .git folder in your project directory.
 This is the first step to start tracking files and changes in your project.
+
 2. git add .
 Purpose: Stages all files in the current directory and its subdirectories for commit.
-
 . specifies all files in the project directory.
 It tells Git to track changes in all modified, new, or deleted files, preparing them to be saved in the next commit.
+
 3. git commit -m "commit message"
 Purpose: Saves the staged changes to the local repository.
-
 -m "commit message" adds a message describing the changes.
 The commit creates a snapshot of your project at this point, which you can revert to later if needed.
+
 4. git branch new-patch1
 Purpose: Creates a new branch called new-patch1.
 
@@ -30,20 +30,20 @@ Branches allow you to work on different versions of your project simultaneously.
 new-patch1 is an isolated environment to make changes without affecting the main branch.
 5. git checkout new-patch1
 Purpose: Switches to the new-patch1 branch.
-
 Ensures that any subsequent changes will be made in this branch and not in the main branch.
 You can start working on new features or fixes in this branch.
+
 6. git remote add origin "link to the github repo site"
 Purpose: Links your local repository to a remote GitHub repository.
-
 origin is a default alias for the remote repository.
 "link to the github repo site" is the URL of your GitHub repository (e.g., https://github.com/user/repo.git).
+
 7. git push -u origin new-patch1
 Purpose: Pushes your local branch (new-patch1) to the remote repository.
-
 -u sets the upstream branch, so future git push commands will automatically push to origin new-patch1.
 Your changes in new-patch1 are now available in the linked remote repository.
-Summary of Workflow:
+
+<b>Summary of Workflow:</b>
 Initialize a Git repository.
 Stage and commit changes.
 Create and switch to a new branch.
